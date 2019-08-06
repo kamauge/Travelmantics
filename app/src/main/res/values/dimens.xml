@@ -4,4 +4,6 @@
     <dimen name="text_margin_large">24dp</dimen>
     <dimen name="title_large">24sp</dimen>
     <dimen name="text_price">18sp</dimen>
+    <dimen name="height">200dp</dimen>
+    <dimen name="text_margin_std">8dp</dimen>
 </resources>

@@ -20,9 +20,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DealActivity"
-            android:screenOrientation="portrait">
-
-
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DealActivity">
         </activity>
     </application>
 

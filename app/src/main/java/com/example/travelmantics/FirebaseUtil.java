@@ -75,6 +75,7 @@ public class FirebaseUtil {
         caller.startActivityForResult(
                 AuthUI.getInstance()
                         .createSignInIntentBuilder()
+                        .setLogo(R.drawable.bg)
                         .setAvailableProviders(providers)
                         .build(),
                 RC_SIGN_IN);

@@ -53,6 +53,7 @@
         android:layout_marginTop="@dimen/text_margin_standard"
         android:text="Upload Image"
         android:background="@color/colorAccent"
+        android:textColor="#ffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtDescription" />
