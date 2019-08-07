@@ -63,7 +63,7 @@ public class DealActivity extends AppCompatActivity {
         this.deal = deal;
         textTitle.setText(deal.getTitle());
         textDescription.setText(deal.getDescription());
-        textPrice.setText("$"+ deal.getPrice().toString());
+        textPrice.setText(deal.getPrice().toString());
         showImage(deal.getImageUrl());
         Button btnImage = findViewById(R.id.btnImage);
         btnImage.setOnClickListener(new View.OnClickListener() {
